@@ -1,0 +1,113 @@
+@media (max-width: 1199px) {
+    .nav_logo img{
+        padding-top: 50px;
+    }
+    .softwars_img{
+        background-position: 0 200px;
+    }
+    .soft_sub{
+        padding-top: 10px;
+    }
+    .form_fields input{
+        width: 300px;
+    }
+    .gad_columns{
+        height: 500px;
+    }
+}
+@media (max-width: 991px) {
+    nav li{
+        margin-right: 30px;
+        padding-top: 20px;
+    }
+    nav a{
+        font-size: 18px;
+    }
+    .list_1 li, .list_2 li{
+        font-size: 18px;
+    }
+    .softwars_img{
+        background-position: 130px 200px;
+    }
+    .softwars_img{
+        height: 0;
+    }
+    .soft_title{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .soft_sub{
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .form_fields{
+        display: block;
+    }
+    .form_fields input{
+        width: 600px;
+    }
+    .form_sub{
+        padding-bottom: 20px;
+    }
+    .form_sub input{
+        width: 400px;
+    }
+    .gad_columns{
+        border: 0;
+    }
+    footer{
+        border-top: solid 1px #515151;
+    }
+}
+
+@media (max-width: 769px) {
+    h1{
+        padding-top: 20px;
+        font-size: 25px;
+    }
+}
+@media (max-width: 630px) {
+    .list_1 li, .list_2 li{
+        font-weight: normal;
+        font-size: 10px;
+    }
+    .form_fields input{
+        width: 300px;
+    }
+    .form_sub input{
+        width: 300px;
+    }
+    footer div{
+        font-size: 10px;
+    }
+}
+@media (max-width: 429px){
+    h1{
+        font-size: 20px;
+    }
+    .list_1 li, .list_2 li{
+        font-size: 8px;
+    }
+}
+@media (max-width: 389px){
+    h1{
+        font-size: 18px;
+        padding: 0;
+    }
+    .title_sub input{
+        width: 200px;
+        font-size: 14px;
+        padding: 0;
+    }
+    .soft_sub{
+        text-align: center;
+    }
+    .soft_sub input{
+        width: 200px;
+        font-size: 14px;
+        padding-left: 5px;
+    }
+    footer{
+        font-size: 8px;
+    }
+}

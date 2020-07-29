@@ -1,0 +1,145 @@
+@media (max-width: 1199px) {
+    .nav img{
+        margin: auto;
+    }
+    .nav div{
+        width: auto;
+        margin-right: 15px;
+    }
+    .logo{
+        width: auto;
+    }
+    .content img{
+        width: 100%;
+    }
+}
+@media (max-width: 991px) {
+    .list ul li {
+        padding: 30px 0;
+        font-size: 12px;
+    }
+
+    .img_li_1 {
+        float: left;
+        padding-right: 10px;
+        min-width: 50%;
+    }
+
+    .img_li_2 {
+        padding-top: 10px;
+        min-width: 50%;
+    }
+
+    /* feedback*/
+
+    .frst_name input {
+        width: 310px;
+    }
+
+    .last_name input {
+        width: 310px;
+    }
+
+    .contact_number input {
+        width: 310px;
+    }
+
+    .inquiry_about select {
+        width: 310px;
+    }
+
+    .feedback_message {
+        padding-top: 10px;
+    }
+
+    .feedback_message .feedback_inputs_titles {
+        padding-left: 25px;
+    }
+
+    .feedback_message textarea {
+        width: 690px;
+    }
+
+    .sub_3 {
+        text-align: center;
+        padding-left: 500px;
+    }
+
+    /* gad */
+
+    .about_mmj_body {
+        font-size: 12px;
+    }
+
+    .connect_body img {
+        display: inline-block;
+        padding-top: 5px;
+    }
+}
+@media (max-width: 767px) {
+    .nav-pills{
+        float: none;
+    }
+    /* feedback*/
+
+    .feedback{
+        height: 490px;
+        min-width: 761px;
+    }
+    .feedback_title{
+        padding-top: 20px;
+        font-size: 14px;
+    }
+    .frst_name {
+        padding-top: 20px;
+    }
+    .frst_name input {
+        width: 310px;
+        height: 30px;
+    }
+
+    .last_name input {
+        width: 310px;
+        height: 30px;
+    }
+    .contact_number input {
+        width: 310px;
+        height: 30px;
+    }
+
+    .inquiry_about select {
+        width: 310px;
+        height: 30px;
+    }
+
+    .feedback_message {
+        padding-top: 10px;
+    }
+
+    .feedback_message .feedback_inputs_titles {
+        padding-left: 115px;
+    }
+
+    .feedback_message textarea {
+        width: 690px;
+    }
+
+    .sub_3 {
+        text-align: center;
+    }
+
+    /* gad */
+
+    .gad{
+        font-size: 11px;
+        min-width: 761px;
+    }
+    .about_mmj_body {
+        font-size: 10px;
+    }
+
+    .connect_body img {
+        display: inline-block;
+        padding-top: 5px;
+    }
+}

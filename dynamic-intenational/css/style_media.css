@@ -1,0 +1,132 @@
+@media (max-width: 1199px) {
+    .logo {
+        display: inline;
+    }
+    .info {
+        float: right;
+        display: inline-block;
+        margin-right: 0;
+    }
+    .nav-pills li>a{
+        padding: 0 0;
+        margin-right: 12px;
+    }
+    .frst_prod {
+        font-size: 12px;
+    }
+    .content_2{
+        background-image: url("../images/content_2_sm.jpg");
+        background-position: center center;
+    }
+    .s_b_sm_bg_3 {
+        margin-top: 80px;
+    }
+    .s_b_sm_bg_4 {
+        margin-top: 80px;
+    }
+    .images > div {
+        display: inline-block;
+        padding-left: 0;
+    }
+}
+@media (max-width: 1062px) {
+    .frst_prod_sub > input {
+        width: 160px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 1012px){
+    .frst_prod_sub > input {
+        width: 140px;
+        font-size: 12px;
+    }
+}
+@media (max-width: 991px){
+    .info{
+        display: none;
+    }
+    .info_sm{
+        display: block;
+        text-align: center;
+        background-color: #2d73b7;
+        padding-right: 16px;
+        padding-left: 16px;
+        line-height: 32px;
+        border-bottom: solid 0;
+        color: #ffffff;
+    }
+    .info_sm span{
+        padding-right: 16px;
+        padding-left: 16px;
+        border-right: solid 1px #4281be;
+    }
+    .info_sm img{
+        padding-left: 16px;
+    }
+    .logo{
+       text-align: center;
+    }
+    h1>a img{
+
+        text-align: center;
+        float: none;
+        display: inline-block;
+    }
+    .navbar-default{
+        display: inline-block;
+    }
+    .frst_prod_sub{
+        text-align: center;
+    }
+    .frst_prod_sub > input {
+        width: 300px;
+        font-size: 14px;
+    }
+    .s_b_sm_bg_1{
+      margin-top: 30px;
+    }
+    .s_b_sm_bg_2{
+        margin-top: 30px;
+    }
+    .s_b_sm_bg_3{
+        margin-top: 30px;
+    }
+    .s_b_sm_bg_4{
+        margin-top: 30px;
+    }
+    .images{
+        display: none;
+    }
+    .gad_footer_bg{
+        background-image: none;
+        background-color: #000000;
+    }
+    .resources_1 li:last-child{
+        padding-bottom: 10px;
+    }
+    .resources_2{
+        padding-top: 0;
+    }
+}
+@media (max-width: 767px) {
+    .navbar-default{
+        float: right;
+    }
+    .nav-pills li {
+        float: none;
+        text-align: center;
+        display: block;
+    }
+
+}
+@media (max-width: 467px) {
+    .head h2{
+        font-size: 40px;
+    }
+}
+@media (max-width: 412px){
+    .info_sm span{
+        display: block;
+        border-right: none;
+    }
+}

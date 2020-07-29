@@ -1,0 +1,240 @@
+@font-face {
+    font-family: Lato-Regular;
+    src: url("../fonts/Lato-Regular.ttf");
+}
+*{
+    font-family: Lato-Regular, sans-serif;
+    font-size: 16px;
+}
+.info{
+    height: 55px;
+    background-color: #0c1033;
+}
+.info_text{
+    font-size: 16px;
+    color: #ffffff;
+    text-align: right;
+    line-height: 55px;
+}
+.phone, .mail{
+    display: inline-block;
+    padding-right: 17px;
+}
+/*
+navbar
+*/
+
+/*
+navbar
+ */
+/*nav{
+    background-color: #ffffff;
+}
+.nav_logo{
+    display: inline-block;
+    line-height: 124px;
+    text-align: center;
+}
+nav li{
+    margin-right: 50px;
+    padding-top: 78px;
+    padding-bottom: 30px;
+    text-decoration: none;
+    display: inline-block;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.solution{
+    font-weight: 700;
+}
+*/
+nav{
+    line-height: 124px;
+    text-align: center;
+}
+.navbar-default{
+    background-color: transparent;
+    border: 0;
+}
+.head_img{
+    background-image: url("../image/header_logo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 440px;
+}
+.head_bg{
+    height: 440px;
+    background-color: #3c405d;
+    opacity: 0.8;
+    text-align: center;
+}
+h1{
+    margin: 0 130px;
+    padding-top: 152px;
+    text-align: center;
+    font-family: Haas Grotesk SW025rg, sans-serif;
+    font-size: 32px;
+    color: #ffffff;
+    height: 125px;
+}
+.title_sub input{
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 408px;
+    height: 52px;
+    font-size: 18px;
+    margin-top: 110px;
+}
+.title_sub input:hover{
+    background-color: #ffffff;
+    color: #3d415d;
+}
+.question{
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 55px;
+}
+.list_1 li, .list_2 li{
+    border-bottom: solid 1px #e5e5e5;
+    height: 42px;
+    line-height: 42px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.text{
+    margin: 55px 0;
+    text-align: justify;
+}
+h2{
+    padding: 40px 0;
+    font-size: 28px;
+}
+.images_bg{
+    background-color: #f3f3f3;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.images_bg h3{
+    padding-top: 30px;
+    font-size: 18px;
+}
+.heart, .payment, .calc{
+    padding-top: 70px;
+}
+.payment img{
+    height: 100%;
+}
+.valued, .hospital, .anallize{
+    padding-top: 60px;
+    padding-bottom: 125px;
+}
+.softwars_bg{
+    background-image: url("../image/hands.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dark_phone{
+    background-color: rgba(0,0,0, 0.5); /*#242525;*/
+}
+.softwars_img{
+    background-image: url("../image/soft_hand.png");
+    background-repeat: no-repeat;
+    background-position: 130px 200px;
+    height: 730px;
+}
+.soft_title{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-top: 90px;
+    padding-bottom: 35px;
+}
+.soft_text{
+    font-size: 16px;
+    color: #ffffff;
+    text-align: justify;
+}
+.soft_sub{
+    padding-top: 40px;
+}
+.soft_sub input{
+    font-size: 18px;
+    background-color: #ad1f24;
+    padding: 25px 70px;
+    border: 0;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.form{
+    background-color: #ad1f24;
+    text-align: center;
+}
+.form h2{
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.form_fields{
+    display: inline-block;
+
+    padding-bottom: 50px;
+}
+.form_fields input{
+    padding-top: 24px;
+    height: 60px;
+    width: 360px;
+    padding-left: 23px;
+    padding-bottom: 24px;
+    color: #9f9f9f;
+}
+.form_sub{
+    display: inline-block;
+}
+.form_sub input{
+    height: 60px;
+    width: 245px;
+    background-color: #0c1033;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: 0;
+}
+.gad{
+    background-color: #1d1d1d;
+}
+.gad_columns{
+    border-bottom: solid 1px #515151;
+    height: 450px;
+}
+.gad_columns h3{
+    padding-top: 50px;
+    padding-bottom: 35px;
+    color: #ffffff;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.gad_columns p{
+    color: #ffffff;
+}
+.frst{
+    border-bottom: solid 1px #515151;
+    padding-bottom: 22px;
+}
+.sec{
+    border-bottom: solid 1px #515151;
+    padding-bottom: 15px;
+}
+footer{
+    background-color: #1d1d1d;
+    color: #515151;
+    line-height: 80px;
+}

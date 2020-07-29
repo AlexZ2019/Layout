@@ -1,0 +1,15 @@
+@media (max-width: 1198px){
+
+}
+@media (max-width: 767px){
+    nav{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .nav-pills>li{
+        float: none;
+    }
+    .nav-pills>li:hover{
+        border-bottom: solid 2px #ffffff;
+    }
+}
